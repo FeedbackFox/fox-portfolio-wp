@@ -1,0 +1,282 @@
+/*
+Theme Name: Fox Theme by Feedback Fox
+Author: Timo Raterink
+Description: Portfolio template custom-made for my own portfolio.
+Version: 0.0.1
+Tags:
+*/
+
+
+/* Fonts */
+
+@font-face {
+  font-family: "akzidenzlight";
+  src: url('../resources/fonts/akzidenzlight.woff2')format('woff2');
+}
+
+@font-face {
+  font-family: "akzidenzmedium";
+  src: url('../resources/fonts/akzidenzmedium.woff2')format('woff2');
+}
+
+@font-face {
+  font-family: "josefinsans";
+  src: url('../resources/fonts/josefinsans.woff2')format('woff2');
+}
+
+@font-face {
+  font-family: "fjallaone";
+  src: url('../resources/fonts/fjallaone.woff2')format('woff2');
+}
+
+@font-face {
+  font-family: "robotothin";
+  src: url('../resources/fonts/robotothin/robotothin.woff2')format('woff2'), url('resources/fonts/robotothin/robotothin.ttf')format('truetype'), url('resources/fonts/robotothin/robotothin.woff')format('woff');
+}
+
+* {
+     /*border: 1px solid;*/
+}
+
+/*Navbar*/
+
+
+
+body, html {
+  padding: 0;
+  margin: 0;
+  
+}
+
+body {
+  padding: 0 12.5vw 0 12.5vw;
+}
+
+.navbar {
+  margin-top: 0;
+  padding: 0;
+  user-select: none;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: #e9ae60;
+  width: 100%;
+  overflow: hidden;
+  font-size: 0;
+}
+
+.navbar__item {
+  display: inline-block;
+  font-family: "akzidenzmedium";
+  font-size: 35px;
+  text-align: center;
+  text-decoration: none;
+  text-decoration: none;
+  font-weight: normal;
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
+  padding: 10px 0vw 10px 0vw;
+  margin: 0 0 0 0;
+  width: calc(100% / 3);
+  background-color: #FFF;
+  color: #e9ae60;
+}
+
+.navbar__item:first-child {
+}
+
+
+.navbar__item:hover {
+  background-color: #e9ae60;
+  color: #fff;
+}
+
+
+/* Footer */
+
+.footer__buttonwrapper {
+  margin-top: 1vw;
+  height: auto;
+  text-align: center;
+
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-color: #e9ae60;
+}
+
+.footer__header {
+  padding-top: 1vw;
+
+  color: #e9ae60;
+  text-align: center;
+  font-family: akzidenzlight;
+  font-size: 40px;
+}
+
+.footer__button {
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 80px;
+
+  margin-bottom: 100px;
+
+  background-color: #e9ae60;
+  color: #fff;
+
+  font-size: 30px;
+  font-family: Mukta Mahee;
+}
+
+.footer__copyrightsection {
+  margin-top: 1vw;
+  height: auto;
+  width: 100%;
+  text-align: left;
+  font-size: 0;
+  float: left;
+  padding: 0;
+
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-color: #e9cba5;
+}
+
+.footer__copyright {
+  font-family: "akzidenzmedium";
+  font-size: 24px;
+  color: #e9cba5;
+  width: 50%;
+  display: inline-block;
+}
+
+.footer__widget {
+  padding-left: 0%;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+}
+.footer__widget li{
+  display: inline;
+}
+.footer__widget img {
+  width: 100px;
+  height: 50px;
+}
+
+.footer__widget li:last-child {
+  margin-left: 52.5vw;
+}
+
+.footer__navbarwrapper {
+  display: inline-block;
+  width: 50%;
+  padding: 0;
+  text-align: right;
+}
+
+.footer__navbaritem {
+  display: inline-block;
+  font-family: "akzidenzmedium";
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  text-decoration: none;
+  font-weight: normal;
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
+  padding: 25px 5px 27px 5px;
+  margin: 0 0 0 0;
+  width: 8vw;
+  background-color: #FFF;
+  color: #e9cba5;
+}
+
+.footer__navbaritem:hover {
+  background-color: #e9cba5;
+  color: #fff;
+}
+
+p {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1300px) {
+  body {
+      padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 220px) and (max-width: 999px) {
+  .navbar__item {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+
+  .footer__navbarwrapper {
+    display: none;
+  }
+
+  .footer__copyright {
+    width: 100%;
+  }
+
+  .footer__copyrightsection {
+    padding-left: 0%;
+    padding-right: 0%;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 999px) {
+  .navbar__item {
+    font-size: 28px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+
+
+
+  .footer__copyright {
+    width: 100%;
+  }
+
+  .footer__copyrightsection {
+    padding-left: 0%;
+    padding-right: 0%;
+    font-size: 20px;
+  }
+
+  .footer__navbarwrapper {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .footer__navbaritem {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100px;
+  }
+
+  .navbar__item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}

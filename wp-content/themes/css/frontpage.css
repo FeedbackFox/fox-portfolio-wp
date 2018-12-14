@@ -1,0 +1,226 @@
+.frontpage__header {
+    text-align: center;
+    height: 900px;
+}
+
+.frontpage__header img {
+    margin-top: 0px;
+}
+
+.frontpage__header p {
+    font-family: akzidenzmedium;
+    font-size: 24px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.frontpage__bio {
+    background-color: #e9ae60;
+    color: white;
+    font-family: akzidenzmedium;
+    margin: 0;
+    height: 600px;
+}
+
+.frontpage__bio p {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.frontpage__github {
+    height: 320px;
+    text-align: center;
+}
+
+.frontpage__github h2 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: #e9ae60;
+}
+
+
+h1 {
+    padding-top: 45px;
+    font-family: akzidenzmedium;
+    font-size: 64px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #e9cba5;
+    font-family: akzidenzmedium;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+  @media screen and (min-width: 320px) and (max-width: 999px) {
+    .frontpage__header {
+        height: 1100px;
+    }
+
+    .frontpage__header img {
+        margin-top: 20px;
+    }
+
+    .frontpage__header p {
+        width: 80%;
+        margin-left: 10%;
+        font-size: 20px;
+    }
+
+    h1 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    h2 {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .frontpage__bio {
+        height: 1100px;
+    }
+
+    .frontpage__bio h1 {
+        padding-top: 30px;
+    }
+
+    .frontpage__bio p {
+        font-size: 20px;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .frontpage__github {
+        height: 400px;
+    }
+  }
+  @media screen and (min-width: 350px) and (max-width: 1299px) {
+    .frontpage__header {
+        height: 1000px;
+    }
+    .frontpage__bio {
+        height: 1000px;
+    }
+  }
+  @media screen and (min-width: 390px) and (max-width: 1299px) {
+    .frontpage__header {
+        height: 950px;
+    }
+    .frontpage__bio {
+        height: 920px;
+    }
+  }
+
+  @media screen and (min-width: 410px) and (max-width: 1299px) {
+    .frontpage__header {
+        height: 900px;
+    }
+    .frontpage__bio {
+        height: 900px;
+    }
+  }
+
+  @media screen and (min-width: 450px) and (max-width: 1299px) {
+    .frontpage__bio {
+        height: 850px;
+    }
+  }
+
+  @media screen and (min-width: 500px) and (max-width: 1299px) {
+    .frontpage__header {
+        height: 850px;
+    }
+    .frontpage__bio {
+        height: 775px;
+    }
+  }
+
+  @media screen and (min-width: 550px) and (max-width: 1299px) {
+    .frontpage__bio {
+        height: 700px;
+    }
+    .frontpage__header {
+        height: 750px;
+    }
+  }
+
+  @media screen and (min-width: 640px) and (max-width: 1299px) {
+
+    .frontpage__header {
+        height: 800px;
+    }
+
+    h1 {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+
+    .frontpage__bio {
+        height: 875px;
+    }
+
+    .frontpage__bio p {
+        font-size: 24px;
+    }
+
+    .frontpage__github {
+        height: 325px;
+    }
+
+  }
+
+  @media screen and (min-width: 750px) and (max-width: 1299px) {
+    .frontpage__bio {
+        height: 750px;
+    }
+  }
+
+  @media screen and (min-width: 780px) and (max-width: 1299px) {
+    .frontpage__header {
+        height: 700px;
+    }
+  }
+
+  @media screen and (min-width: 800px) and (max-width: 1299px) {
+      .frontpage__bio {
+          height: 700px;
+      }
+  }
+
+  @media screen and (min-width: 970px) and (max-width: 1299px) {
+      .frontpage__bio {
+          height: 650px;
+      }
+  }
+
+  @media screen and (min-width: 1000px) and (max-width: 1299px) {
+      .frontpage__header {
+          height: 900px;
+      }
+      .frontpage__bio {
+          height: 675px;
+      }
+  }
+
+  @media screen and (min-width: 1120px) and (max-width: 1299px) {
+      .frontpage__bio {
+          height: 625px;
+      }
+  }
+
+  @media screen and (min-width: 1300px) and (max-width: 1650px) {
+      .frontpage__bio {
+          height: 700px;
+      }
+  }
+  @media screen and (min-width: 1500px) and (max-width: 1650px) {
+    .frontpage__bio {
+        height: 625px;
+    }
+}

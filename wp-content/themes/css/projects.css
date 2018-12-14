@@ -1,0 +1,175 @@
+/* Introduction above the articles, explaining what the page is about. */
+
+.projects__introwrapper {
+    height: 300px;
+    
+    
+
+    text-align: center;
+    
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #e9ae60;
+}
+
+.projects__bannertitle {
+    display: block;
+    padding-top: 0px;
+
+
+    text-align: center; 
+    font-family: akzidenzmedium;
+    font-size: 64px;
+
+}
+
+.projects__bannersubtitle {
+    color: #e9cba5;
+    font-family: akzidenzmedium;
+}
+
+/* Article wrapper and sidebar */
+
+.projects__main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar,
+.projects__articles {
+    padding: 15px;
+    background-color: #e9ae60;
+    color: white;
+    margin-top: 100px;
+}
+
+.sidebar {
+    width: 22.5%;
+    height: 80vh;
+
+    margin-right: 5%;
+    margin-bottom: 100px;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10%;
+    font-family: akzidenzmedium;
+    font-size: 18px;
+    padding: 0;
+    
+}
+
+
+.sidebar a {
+    color: white;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    padding: 20px 0 20px 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    text-align: center;
+
+    height: auto;
+
+    width: 90%;
+}
+
+
+.sidebar a:last-child {
+    border: none;
+}
+
+.projects__articles {
+background-color: white;
+width: 60%;
+height: auto;
+margin-left: 5%;
+margin-bottom: 100px;
+padding: 0;
+}
+
+
+
+.projects__article {
+padding-top: 40px;
+padding-bottom: 40px;
+text-align: center;
+}
+
+.projects__article:first-child {
+    border-top: 0px solid white;
+}
+
+.projects__article:nth-child(odd) {
+    background-color: #e9ae60;
+    color: white;
+}
+
+.projects__article:nth-child(even) {
+    background-color: white;
+    color: #e9ae60;
+}
+.projects__article:last-child {
+}
+
+.projects__articletitle {
+    margin: 0;
+    text-align: center;
+    font-family: akzidenzmedium;
+    font-size: 36px;
+    padding-left: 5%;
+    padding-right: 4.5%;
+}
+
+.projects__articlemeta {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: akzidenzmedium;
+    font-size: 18px;
+}
+
+.projects__articlecontent p {
+    font-family: akzidenzmedium;
+    margin-left: 10%;
+    margin-right: 9.5%;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.projects__articlecontent img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 1299px) {
+    .projects__introwrapper {
+        height: 350px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .projects__articles {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 100px;
+    }
+    .projects__article p {
+        font-size: 18px;
+        width: 90%;
+        margin-left: 5%;
+    }
+  }
+
+  @media screen and (min-width: 640px) and (max-width: 1299px) {
+    .projects__article p {
+        font-size: 22px;
+    }
+}
